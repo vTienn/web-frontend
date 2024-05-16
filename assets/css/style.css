@@ -1,0 +1,272 @@
+/* header */
+
+.header {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  /* Hiển thị bóng */
+}
+
+.inner-head {
+  display: flex;
+  background-color: #efefef;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+}
+
+.inner-logo {
+  display: flex;
+  margin-left: 40px;
+}
+
+.inner-logo .head-logo {
+  height: 45px;
+}
+
+.head-title {
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.inner-menu {
+  height: 100%;
+  margin-right: 200px;
+}
+
+.inner-menu ul {
+  display: flex;
+  height: 100%;
+  list-style: none;
+  align-items: center;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.menu-item:hover {
+  background-color: #fff;
+}
+
+.menu-item a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: 450;
+}
+
+.inner-icon {
+  margin-right: 50px;
+  display: flex;
+}
+
+.icon-wrap {
+  display: flex;
+  background-color: #fff;
+  height: 50px;
+  width: 50px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  margin-right: 8px;
+}
+
+.inner-icon a i {
+  font-size: 22px;
+  color: black;
+}
+
+.inner-icon a {
+  background-color: #fff;
+}
+
+/* section -head */
+
+.section-head {
+  background-image: url("https://vcdn-vnexpress.vnecdn.net/2021/12/15/yg-5788-1639532682.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 570px;
+  background-color: #ddd;
+  display: flex;
+  align-items: center;
+}
+
+.section-content .section-desc1 {
+  color: #bbbbbb;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.section-title {
+  font-size: 50px;
+  color: #bbbbbb;
+  font-weight: bold;
+}
+
+.section-desc2 {
+  margin-top: 30px;
+  color: #bbbbbb;
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+.btn-1 {
+  color: black;
+  background-color: #f7d9c4;
+  border: none;
+  height: 60px;
+  width: 180px;
+  border-radius: 5px;
+  margin-right: 10px;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.btn-1:hover {
+  background-color: #fff;
+}
+
+/* section-content */
+
+.section-content-2 {
+  background-color: #efefef;
+  padding-top: 100px;
+}
+
+.section-content2-img .content-img {
+  height: 570px;
+  width: 480px;
+  border-radius: 5px;
+}
+
+.section-content-word .word-title {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.box-icon {
+  display: flex;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.box-icon .box-item {
+  height: 140px;
+  width: 150px;
+  border-radius: 10px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.box-item i {
+  font-size: 40px;
+  color: #ffc2c2;
+}
+
+.box-item p {
+  font-size: 20px;
+  color: #000;
+  padding-top: 10px;
+}
+
+.word-desc {
+  margin-bottom: 30px;
+}
+
+/* section3 */
+
+.section-3 .section3-title {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.section-3-content p {
+  color: #777777;
+  font-weight: bold;
+}
+
+.section-3-content {
+  padding-top: 50px;
+  padding-left: 60px;
+}
+
+.section3-img .img-main {
+  width: 320px;
+  border-radius: 10px;
+}
+
+.section-3 {
+  padding-top: 60px;
+  background-color: #efefef;
+  border-radius: 20px;
+  padding-bottom: 100px;
+}
+
+.section-3-wrap {
+  background-color: #fff;
+  height: 350px;
+  border-radius: 10px;
+}
+
+/* section4 */
+
+.section-4 {
+  padding: 30px 0;
+}
+
+.section-4-content p {
+  color: #a37777;
+}
+
+.section-4-icon {
+  display: flex;
+  align-items: center;
+}
+
+.section-4-icon i {
+  color: #a37777;
+  background-color: #ddd;
+  padding: 10px;
+  border-radius: 50%;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.section-4-icon p {
+  margin-top: 26px;
+  color: #a37777;
+}
+
+/* section5 */
+
+.section-5 {
+  background-color: #efefef;
+}
+
+.section-5-box {
+  background-color: #fff;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.section-5-box .box-img {
+  width: 100%;
+  height: 200px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
